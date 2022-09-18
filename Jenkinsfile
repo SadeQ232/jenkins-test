@@ -4,7 +4,7 @@ pipeline {
         PROJECT_ID = 'bridgtl-dso-d-devops'
         CLUSTER_NAME = 'dso-kubecluster'
         LOCATION = 'asia-southeast2-c'
-        CREDENTIALS_ID = 'gke'
+        CREDENTIALS_ID = 'dso-kubecluster'
     }
     stages {
         stage("Checkout code") {
